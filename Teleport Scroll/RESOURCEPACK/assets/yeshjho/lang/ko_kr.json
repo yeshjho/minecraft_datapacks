@@ -1,0 +1,7 @@
+{
+	"empty_teleport_scroll": "빈 순간이동 주문서",
+	"teleport_scroll": "순간이동 주문서",
+	"teleport_coordinate": "순간이동 좌표: ",
+	"using_empty_teleport_scroll": "좌표 보정 중...",
+	"using_teleport_scroll": "순간이동 중..."
+}

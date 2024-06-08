@@ -1,0 +1,2 @@
+$execute store result bossbar teleporting_$(player_id) value run scoreboard players add @s $(tick_count_objective) 1
+$execute if score @s $(tick_count_objective) matches $(delay) as @s run function $(usage_function) with storage yeshjho:function_arguments

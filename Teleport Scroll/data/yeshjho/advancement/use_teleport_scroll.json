@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "use_item": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "player": [],
+                "item": {
+                    "items": "minecraft:paper",
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "teleport_scroll": true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "yeshjho:usage_checker/teleport_scroll"
+    }
+}

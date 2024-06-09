@@ -1,3 +1,3 @@
 scoreboard objectives add teleport_scroll_config dummy
-scoreboard players set #destination_set_delay_tick teleport_scroll_config 20
-scoreboard players set #teleport_delay_tick teleport_scroll_config 20
+scoreboard players set #destination_set_delay_tick teleport_scroll_config 60
+scoreboard players set #teleport_delay_tick teleport_scroll_config 100

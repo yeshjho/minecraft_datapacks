@@ -1,0 +1,22 @@
+{
+    "function": "set_attributes",
+    "modifiers": [
+        {
+            "name": "lock_movement",
+            "attribute": "generic.movement_speed",
+            "operation": "add_multiplied_total",
+            "amount": -1,
+            "id": "teleport_scroll_lock_movement",
+            "slot": "mainhand"
+        },
+        {
+            "name": "lock_jump",
+            "attribute": "generic.jump_strength",
+            "operation": "add_multiplied_total",
+            "amount": -1,
+            "id": "teleport_scroll_lock_jump",
+            "slot": "mainhand"
+        }
+    ],
+    "replace": false
+}

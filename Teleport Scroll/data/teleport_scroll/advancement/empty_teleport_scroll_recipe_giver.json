@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "pearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:ender_pearl"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "teleport_scroll:empty_teleport_scroll"
+        ]
+    }
+}

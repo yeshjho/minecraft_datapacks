@@ -1,0 +1,2 @@
+$execute as @s store success score @s teleport_scroll_movement_check run data modify storage teleport_scroll:player_storage_$(player_id) teleport_start_pos set from entity @s Pos
+execute as @s if score @s teleport_scroll_movement_check matches 1 run function teleport_scroll:teleport_scroll/block_continuous_usage with storage teleport_scroll:function_arguments

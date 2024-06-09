@@ -1,1 +1,0 @@
-$execute as @s unless dimension $(target_dim) run function yeshjho:teleport_scroll/filled/dimension_blocker with storage yeshjho:teleport_scroll_function_arguments

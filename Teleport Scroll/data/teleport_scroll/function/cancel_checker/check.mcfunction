@@ -1,0 +1,1 @@
+execute as @a unless data entity @s SelectedItem.components."minecraft:custom_data".teleport_scroll run function teleport_scroll:cancel_checker/cancel

@@ -1,0 +1,1 @@
+$execute as @s unless dimension $(target_dim) run function teleport_scroll:teleport_scroll/filled/dimension_blocker with storage teleport_scroll:function_arguments

@@ -1,6 +1,6 @@
 {
     "values": [
-        "yeshjho:initialize",
-        "yeshjho:config"
+        "teleport_scroll:initialize",
+        "teleport_scroll:config"
     ]
 }

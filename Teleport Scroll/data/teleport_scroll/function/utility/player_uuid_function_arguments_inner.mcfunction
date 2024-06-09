@@ -1,0 +1,1 @@
+$data modify storage teleport_scroll:function_arguments player_id set value "$(player_id_1)$(player_id_2)$(player_id_3)"

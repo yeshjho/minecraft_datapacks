@@ -1,0 +1,59 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "pattern": [
+        "GDG",
+        "EBE",
+        "PCP"
+    ],
+    "key": {
+        "B": {
+            "item": "minecraft:writable_book"
+        },
+        "P": {
+            "item": "minecraft:popped_chorus_fruit"
+        },
+        "C": {
+            "item": "minecraft:compass"
+        },
+        "E": {
+            "item": "minecraft:ender_eye"
+        },
+        "G": {
+            "item": "minecraft:glistering_melon_slice"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        }
+    },
+    "result": {
+        "id": "minecraft:paper",
+        "count": 3,
+        "components": {
+            "minecraft:custom_name": "{\"type\": \"translatable\", \"translate\": \"empty_interdimension_teleport_scroll\", \"fallback\": \"Empty Interdimensional Teleport Scroll\", \"italic\": false}",
+            "minecraft:rarity": "epic",
+            "minecraft:custom_model_data": 26283,
+            "minecraft:custom_data": {
+                "empty_teleport_scroll": true,
+                "interdimension": true
+            },
+            "minecraft:food": {
+                "nutrition": 0,
+                "saturation": 0,
+                "can_always_eat": true,
+                "eat_seconds": 1000000
+            },
+            "minecraft:enchantments": {
+                "levels": {
+                    "yeshjho:empty_teleport_scroll_tick": 1
+                },
+                "show_in_tooltip": false
+            },
+            "minecraft:enchantment_glint_override": false,
+            "minecraft:attribute_modifiers": {
+                "modifiers": [],
+                "show_in_tooltip": false
+            }
+        }
+    }
+}

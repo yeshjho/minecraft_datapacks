@@ -1,11 +1,14 @@
 {
 	"empty_teleport_scroll": "빈 순간이동 주문서",
+	"empty_interdimension_teleport_scroll": "빈 차원간 순간이동 주문서",
 	"teleport_scroll": "순간이동 주문서",
+	"interdimension_teleport_scroll": "차원간 순간이동 주문서",
 	"teleport_dimension": "차원: ",
 	"teleport_coordinate": "좌표: ",
 	"minecraft:overworld": "오버월드",
 	"minecraft:the_nether": "네더",
 	"minecraft:the_end": "엔드",
 	"using_empty_teleport_scroll": "좌표 보정 중...",
-	"using_teleport_scroll": "순간이동 중..."
+	"using_teleport_scroll": "순간이동 중...",
+	"teleport_scroll_blocked": "순간이동 차원 막힘"
 }

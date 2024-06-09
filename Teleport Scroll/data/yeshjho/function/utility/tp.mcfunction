@@ -1,1 +1,1 @@
-$tp @s $(tp_dest_x) $(tp_dest_y) $(tp_dest_z) $(tp_dest_yaw) $(tp_dest_pitch)
+$execute as @s in $(tp_dim) run tp @s $(tp_dest_x) $(tp_dest_y) $(tp_dest_z) $(tp_dest_yaw) $(tp_dest_pitch)

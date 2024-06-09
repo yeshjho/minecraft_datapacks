@@ -6,4 +6,6 @@ $bossbar set teleporting_$(player_id) players @s
 $bossbar set teleporting_$(player_id) visible true
 item modify entity @s weapon teleport_scroll:lock_movement
 item modify entity @s weapon teleport_scroll:hide_attribute_modifiers
-$data modify storage teleport_scroll:player_storage_$(player_id) teleport_start_pos set from entity @s Pos
+execute as @s store result score @s teleport_scroll_use_start_x run data get entity @s Pos[0] 1000
+execute as @s store result score @s teleport_scroll_use_start_y run data get entity @s Pos[1] 1000
+execute as @s store result score @s teleport_scroll_use_start_z run data get entity @s Pos[2] 1000

@@ -20,7 +20,7 @@
             {
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "yeshjho:teleport_scroll/tick"
+                    "function": "yeshjho:teleport_scroll/filled/tick"
                 }
             }
         ]

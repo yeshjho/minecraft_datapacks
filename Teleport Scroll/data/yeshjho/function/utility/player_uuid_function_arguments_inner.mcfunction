@@ -1,1 +1,1 @@
-$data modify storage yeshjho:function_arguments player_id set value "$(player_id_1)$(player_id_2)$(player_id_3)"
+$data modify storage yeshjho:teleport_scroll_function_arguments player_id set value "$(player_id_1)$(player_id_2)$(player_id_3)"

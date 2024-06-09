@@ -6,3 +6,4 @@ $bossbar set teleporting_$(player_id) players @s
 $bossbar set teleporting_$(player_id) visible true
 item modify entity @s weapon yeshjho:lock_movement
 item modify entity @s weapon yeshjho:hide_attribute_modifiers
+$data modify storage yeshjho:player_storage_$(player_id) teleport_start_pos set from entity @s Pos

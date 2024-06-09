@@ -48,7 +48,11 @@
                 },
                 "show_in_tooltip": false
             },
-            "minecraft:enchantment_glint_override": false
+            "minecraft:enchantment_glint_override": false,
+            "minecraft:attribute_modifiers": {
+                "modifiers": [],
+                "show_in_tooltip": false
+            }
         }
     }
 }

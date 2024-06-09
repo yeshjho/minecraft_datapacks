@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "category": "redstone",
     "pattern": [
-        "GDG",
+        "GRG",
         "EBE",
         "PCP"
     ],
@@ -22,8 +22,8 @@
         "G": {
             "item": "minecraft:glistering_melon_slice"
         },
-        "D": {
-            "item": "minecraft:diamond"
+        "R": {
+            "item": "minecraft:redstone"
         }
     },
     "result": {

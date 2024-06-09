@@ -1,4 +1,2 @@
-scoreboard objectives add used_empty_teleport_scroll_last_tick dummy
-scoreboard objectives add empty_teleport_scroll_continuous_use_tick dummy
 scoreboard objectives add used_teleport_scroll_last_tick dummy
 scoreboard objectives add teleport_scroll_continuous_use_tick dummy

@@ -34,7 +34,7 @@
             "minecraft:rarity": "rare",
             "minecraft:custom_model_data": 26281,
             "minecraft:custom_data": {
-                "empty_teleport_scroll": true
+                "teleport_scroll": true
             },
             "minecraft:food": {
                 "nutrition": 0,

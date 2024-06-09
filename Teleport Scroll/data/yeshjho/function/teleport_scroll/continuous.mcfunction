@@ -1,2 +1,2 @@
-$execute as @s store result bossbar teleporting_$(player_id) value run scoreboard players add @s $(tick_count_objective) 1
-$execute as @s if score @s $(tick_count_objective) matches $(delay) run function $(usage_function) with storage yeshjho:teleport_scroll_function_arguments
+$execute as @s store result bossbar teleporting_$(player_id) value run scoreboard players add @s teleport_scroll_continuous_use_tick 1
+$execute as @s if score @s teleport_scroll_continuous_use_tick matches $(delay) run function $(usage_function) with storage yeshjho:teleport_scroll_function_arguments

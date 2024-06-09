@@ -34,7 +34,7 @@
             "minecraft:rarity": "epic",
             "minecraft:custom_model_data": 26283,
             "minecraft:custom_data": {
-                "empty_teleport_scroll": true,
+                "teleport_scroll": true,
                 "interdimension": true
             },
             "minecraft:food": {

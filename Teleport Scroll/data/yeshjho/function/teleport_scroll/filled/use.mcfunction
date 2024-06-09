@@ -6,3 +6,4 @@ data modify storage yeshjho:teleport_scroll_function_arguments tp_dest_pitch set
 data modify storage yeshjho:teleport_scroll_function_arguments tp_dim set from entity @s SelectedItem.components."minecraft:custom_data".dim
 item modify entity @s weapon yeshjho:decrement
 execute as @s run function yeshjho:utility/tp with storage yeshjho:teleport_scroll_function_arguments
+execute as @s run function yeshjho:teleport_scroll/block_continuous_usage with storage yeshjho:teleport_scroll_function_arguments

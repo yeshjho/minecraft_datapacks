@@ -9,3 +9,4 @@ item modify entity @s weapon teleport_scroll:hide_attribute_modifiers
 execute as @s store result score @s teleport_scroll_use_start_x run data get entity @s Pos[0] 1000
 execute as @s store result score @s teleport_scroll_use_start_y run data get entity @s Pos[1] 1000
 execute as @s store result score @s teleport_scroll_use_start_z run data get entity @s Pos[2] 1000
+scoreboard players set @s particle_teleport_use 0

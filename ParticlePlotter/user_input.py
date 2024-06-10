@@ -80,3 +80,7 @@ def get_functions():
                  b=255,
                  ),
     ]
+
+
+if __name__ == '__main__':
+    raise Exception("Don't run this file")
